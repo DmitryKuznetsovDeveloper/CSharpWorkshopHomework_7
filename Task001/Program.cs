@@ -54,7 +54,7 @@ try
     double[,] userMatrix = CreationMatrix(userRow, userCol);
     PrintMatrix(FillMatrix(userMatrix));
 }
-catch (Exception)
+catch (FormatException)
 {
-    Console.WriteLine("Это не число =(");
+    Console.WriteLine("Вы ввели не число =(");
 }
