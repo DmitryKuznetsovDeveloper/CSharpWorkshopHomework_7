@@ -32,6 +32,7 @@ double[,] FillMatrix(double[,] array)
     return array;
 }
 
+// Метод вывода массива
 void PrintMatrix(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -45,6 +46,7 @@ void PrintMatrix(double[,] array)
     Console.WriteLine();
 }
 
+// Обработка исключений
 try
 {
     int userRow = InputUser("Введите количество строк в двумерном массиве");
